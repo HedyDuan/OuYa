@@ -1,0 +1,55 @@
+//
+//  OuYaApp-Prefix.pch
+//  OuYaApp
+//
+//  Created by duanyang on 17/7/17.
+//  Copyright © 2017年 duanyang. All rights reserved.
+//
+
+#ifndef OuYaApp_Prefix_pch
+#define OuYaApp_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import "GKConfig.h"
+#import "UIColor+Utils.h"
+#import "UIView+Additon.h"
+#import "UIBarButtonItem+Common.h"
+#import <Masonry/Masonry.h>
+#import "UIColor+Utils.h"
+#import "GLAsyncRun.h"
+#import "UIStoryboard+Utils.h"
+#import "PPNetworkHelper.h"
+#import "MFProgressHUD.h"
+#import "GLHUD.h"
+#import "NSNotificationCenter+Utils.h"
+#import "MFToast.h"
+#import "UIImageView+WebCache.h"
+#import "EOPBaseViewController.h"
+#import "MFToast.h"
+#import "UIImage+Addtions.h"
+
+
+
+#define SystemTakeHeight (StatusBarHeight + NavigationBarHeight)
+#define StatusBarHeight [UIApplication sharedApplication].statusBarFrame.size.height
+#define NavigationBarHeight 44
+
+
+
+
+
+#define  kBackButtonFontSize 16
+#define  kNavTitleFontSize 18
+#define  kBadgeTipStr @"badgeTip"
+
+#define AccountKey @"account"
+#define PwdKey @"pwd"
+#define SessionIdKey @"sessionId"
+#define UserIdKey @"userid"
+#define UserDefault_SeeionidKey [[NSUserDefaults standardUserDefaults] objectForKey:SessionIdKey]
+#define UserDefault_UserIdKey [[NSUserDefaults standardUserDefaults] objectForKey:UserIdKey]
+
+#endif /* OuYaApp_Prefix_pch */

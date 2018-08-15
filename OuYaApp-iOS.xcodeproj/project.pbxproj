@@ -1,0 +1,1332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022A3DB9627A3A015B8A2020 /* libPods-OuYaApp-iOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E257FDC2D5AB7C00CAAA5ECC /* libPods-OuYaApp-iOSUITests.a */; };
+		45C8DED0F7C5DB39461DE3A1 /* libPods-OuYaApp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62831757B7A5EB5A046BD68B /* libPods-OuYaApp-iOS.a */; };
+		D00EFAEE200B7F1E00604F5F /* SampleBook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00EFAED200B7F1E00604F5F /* SampleBook.storyboard */; };
+		D010FF8F200F9C1400DA7035 /* OYSampleBookListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D010FF8E200F9C1400DA7035 /* OYSampleBookListVC.m */; };
+		D019696C200E40BA00575DA2 /* EqualSpaceFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D019696B200E40BA00575DA2 /* EqualSpaceFlowLayout.m */; };
+		D06F8EC7200CCDD20061B046 /* UIView+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EBA200CCDD20061B046 /* UIView+Additon.m */; };
+		D06F8EC8200CCDD20061B046 /* UIBarButtonItem+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EBB200CCDD20061B046 /* UIBarButtonItem+Common.m */; };
+		D06F8ED0200CD2AB0061B046 /* MFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8ECE200CD2AB0061B046 /* MFToast.m */; };
+		D06F8EDE200CD73F0061B046 /* OYSampleBookHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EDD200CD73F0061B046 /* OYSampleBookHomeVC.m */; };
+		D06F8EE7200CD78D0061B046 /* MFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EDF200CD78C0061B046 /* MFBaseViewController.m */; };
+		D06F8EE8200CD78D0061B046 /* MFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EE1200CD78D0061B046 /* MFNavigationController.m */; };
+		D06F8EE9200CD78D0061B046 /* MFBaseChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EE3200CD78D0061B046 /* MFBaseChildView.m */; };
+		D06F8EEA200CD78D0061B046 /* MFBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EE6200CD78D0061B046 /* MFBaseTableViewCell.m */; };
+		D06F8EF0200CD8470061B046 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EEE200CD8460061B046 /* UIColor+Utils.m */; };
+		D06F8EF6200CD94E0061B046 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EF2200CD94E0061B046 /* WRNavigationBar.m */; };
+		D06F8EF7200CD94E0061B046 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EF5200CD94E0061B046 /* WRCustomNavigationBar.m */; };
+		D06F8EFF200CD9E00061B046 /* GLAsyncRun.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8EFD200CD9E00061B046 /* GLAsyncRun.m */; };
+		D06F8F02200CDC130061B046 /* UIStoryboard+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8F00200CDC130061B046 /* UIStoryboard+Utils.m */; };
+		D06F8F07200CDFC70061B046 /* EOPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8F04200CDFC60061B046 /* EOPBaseViewController.m */; };
+		D06F8F08200CDFC70061B046 /* EOPNavRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8F06200CDFC70061B046 /* EOPNavRootController.m */; };
+		D06F8F11200CF2F20061B046 /* YJTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8F0A200CF2F10061B046 /* YJTagCollectionViewCell.m */; };
+		D06F8F12200CF2F20061B046 /* YJTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8F0C200CF2F20061B046 /* YJTagView.m */; };
+		D06F8F13200CF2F20061B046 /* YJTagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D06F8F0D200CF2F20061B046 /* YJTagCollectionViewCell.xib */; };
+		D06F8F14200CF2F20061B046 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8F0F200CF2F20061B046 /* UICollectionViewLeftAlignedLayout.m */; };
+		D06F8F18200CF35B0061B046 /* OYSampleBookHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F8F16200CF35B0061B046 /* OYSampleBookHomeCell.m */; };
+		D071918B201DB59900DFBA9D /* OYSampleBookHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D071918A201DB59900DFBA9D /* OYSampleBookHomeModel.m */; };
+		D07B42592024786300676A7A /* NSNull+Addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B42582024786200676A7A /* NSNull+Addtions.m */; };
+		D07B425C202478C800676A7A /* UIImage+Addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = D07B425A202478C700676A7A /* UIImage+Addtions.m */; };
+		D093C23E200F51DF00AC443A /* SourceHanSansCN-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D093C239200F51DF00AC443A /* SourceHanSansCN-Normal.ttf */; };
+		D093C240200F79CE00AC443A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D093C23F200F79CE00AC443A /* Login.storyboard */; };
+		D093C248200F7CDC00AC443A /* OYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D093C247200F7CDC00AC443A /* OYLoginViewController.m */; };
+		D09BEF5A2009DC59001B146B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BEF592009DC59001B146B /* AppDelegate.m */; };
+		D09BEF622009DC59001B146B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09BEF612009DC59001B146B /* Assets.xcassets */; };
+		D09BEF652009DC59001B146B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09BEF632009DC59001B146B /* LaunchScreen.storyboard */; };
+		D09BEF682009DC59001B146B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BEF672009DC59001B146B /* main.m */; };
+		D09BEF722009DC59001B146B /* OuYaApp_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BEF712009DC59001B146B /* OuYaApp_iOSTests.m */; };
+		D09BEF7D2009DC59001B146B /* OuYaApp_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09BEF7C2009DC59001B146B /* OuYaApp_iOSUITests.m */; };
+		D0A7D63B20107F8900523F9A /* OYSampleBookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A7D63A20107F8900523F9A /* OYSampleBookListModel.m */; };
+		D0A7D6402010950300523F9A /* OYSampleBookListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A7D63E2010950300523F9A /* OYSampleBookListCell.xib */; };
+		D0A7D643201095EB00523F9A /* OYSampleBookListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A7D642201095EB00523F9A /* OYSampleBookListCell.m */; };
+		D0B566542020582F00590F2E /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B5663E2020582F00590F2E /* SVModalWebViewController.m */; };
+		D0B566552020582F00590F2E /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B566422020582F00590F2E /* SVWebViewControllerActivity.m */; };
+		D0B566562020582F00590F2E /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B566442020582F00590F2E /* SVWebViewControllerActivitySafari-iPad.png */; };
+		D0B566572020582F00590F2E /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B566452020582F00590F2E /* SVWebViewControllerActivitySafari.m */; };
+		D0B566582020582F00590F2E /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B566462020582F00590F2E /* SVWebViewControllerActivitySafari@2x.png */; };
+		D0B566592020582F00590F2E /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B566482020582F00590F2E /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
+		D0B5665A2020582F00590F2E /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B5664A2020582F00590F2E /* SVWebViewControllerActivityChrome.m */; };
+		D0B5665B2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B5664B2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
+		D0B5665C2020582F00590F2E /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B5664C2020582F00590F2E /* SVWebViewControllerActivityChrome@2x.png */; };
+		D0B5665D2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B5664D2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad.png */; };
+		D0B5665E2020582F00590F2E /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0B566502020582F00590F2E /* SVWebViewController.bundle */; };
+		D0B5665F2020582F00590F2E /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B566512020582F00590F2E /* SVWebViewController.m */; };
+		D0B566602020582F00590F2E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D0B566522020582F00590F2E /* README.md */; };
+		D0B566612020582F00590F2E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0B566532020582F00590F2E /* LICENSE.txt */; };
+		D0B566642020584500590F2E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B566622020584400590F2E /* WebViewController.m */; };
+		D0BA7C7120118C1C009977F5 /* OYSampleDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA7C7020118C1C009977F5 /* OYSampleDetailVC.m */; };
+		D0BA7C7420118C87009977F5 /* OYSampleBookDetailTopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA7C7320118C87009977F5 /* OYSampleBookDetailTopVC.m */; };
+		D0BA7C7720118C9F009977F5 /* OYSampleBookDetailMiddleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA7C7620118C9F009977F5 /* OYSampleBookDetailMiddleVC.m */; };
+		D0BA7C7A20118CB5009977F5 /* OYSampleBookDetailBottomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA7C7920118CB5009977F5 /* OYSampleBookDetailBottomVC.m */; };
+		D0BA7C7D20118DB0009977F5 /* OYSampleBookPicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BA7C7C20118DB0009977F5 /* OYSampleBookPicVC.m */; };
+		D0BCF1C1201C5B4500313575 /* blackCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0BCF1BE201C5B4500313575 /* blackCloseBtn@2x.png */; };
+		D0BCF1C2201C5B4500313575 /* MFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF1C0201C5B4500313575 /* MFProgressHUD.m */; };
+		D0BCF1C6201C5B7100313575 /* GLHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF1C5201C5B7100313575 /* GLHUD.m */; };
+		D0BCF1C9201C5C5700313575 /* NSNotificationCenter+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BCF1C8201C5C5700313575 /* NSNotificationCenter+Utils.m */; };
+		EF92AB3E8EABA35A09DF83E6 /* libPods-OuYaApp-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 538C39BC7BC3ABEEEBC81E44 /* libPods-OuYaApp-iOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09BEF6E2009DC59001B146B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09BEF4D2009DC58001B146B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BEF542009DC59001B146B;
+			remoteInfo = "OuYaApp-iOS";
+		};
+		D09BEF792009DC59001B146B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09BEF4D2009DC58001B146B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BEF542009DC59001B146B;
+			remoteInfo = "OuYaApp-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0280FDCC48B055BF8D46165F /* Pods-OuYaApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OuYaApp-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OuYaApp-iOS/Pods-OuYaApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		52E82C89B6CE9A12C84766BC /* Pods-OuYaApp-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OuYaApp-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OuYaApp-iOSTests/Pods-OuYaApp-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		538C39BC7BC3ABEEEBC81E44 /* libPods-OuYaApp-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OuYaApp-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62831757B7A5EB5A046BD68B /* libPods-OuYaApp-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OuYaApp-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DA1C2024EBC6D1A8FDCF4F /* Pods-OuYaApp-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OuYaApp-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OuYaApp-iOSUITests/Pods-OuYaApp-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		766E3C2035B457D0B163F285 /* Pods-OuYaApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OuYaApp-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OuYaApp-iOS/Pods-OuYaApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A526BAD539FF6E5CF89275EC /* Pods-OuYaApp-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OuYaApp-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OuYaApp-iOSTests/Pods-OuYaApp-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6D3F431E68E9EBB8B6722C /* Pods-OuYaApp-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OuYaApp-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OuYaApp-iOSUITests/Pods-OuYaApp-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D00EFAED200B7F1E00604F5F /* SampleBook.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleBook.storyboard; sourceTree = "<group>"; };
+		D010FF8D200F9C1400DA7035 /* OYSampleBookListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookListVC.h; sourceTree = "<group>"; };
+		D010FF8E200F9C1400DA7035 /* OYSampleBookListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookListVC.m; sourceTree = "<group>"; };
+		D019696A200E40BA00575DA2 /* EqualSpaceFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EqualSpaceFlowLayout.h; sourceTree = "<group>"; };
+		D019696B200E40BA00575DA2 /* EqualSpaceFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EqualSpaceFlowLayout.m; sourceTree = "<group>"; };
+		D06F8EA9200CCD8D0061B046 /* GKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKConfig.h; sourceTree = "<group>"; };
+		D06F8EAE200CCDD10061B046 /* UIView+Additon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additon.h"; sourceTree = "<group>"; };
+		D06F8EB2200CCDD10061B046 /* UIBarButtonItem+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Common.h"; sourceTree = "<group>"; };
+		D06F8EBA200CCDD20061B046 /* UIView+Additon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additon.m"; sourceTree = "<group>"; };
+		D06F8EBB200CCDD20061B046 /* UIBarButtonItem+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Common.m"; sourceTree = "<group>"; };
+		D06F8ECB200CD14F0061B046 /* OuYaApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OuYaApp-Prefix.pch"; sourceTree = "<group>"; };
+		D06F8ECE200CD2AB0061B046 /* MFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFToast.m; sourceTree = "<group>"; };
+		D06F8ECF200CD2AB0061B046 /* MFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFToast.h; sourceTree = "<group>"; };
+		D06F8EDC200CD73F0061B046 /* OYSampleBookHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookHomeVC.h; sourceTree = "<group>"; };
+		D06F8EDD200CD73F0061B046 /* OYSampleBookHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookHomeVC.m; sourceTree = "<group>"; };
+		D06F8EDF200CD78C0061B046 /* MFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseViewController.m; sourceTree = "<group>"; };
+		D06F8EE0200CD78C0061B046 /* MFBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBaseTableViewCell.h; sourceTree = "<group>"; };
+		D06F8EE1200CD78D0061B046 /* MFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFNavigationController.m; sourceTree = "<group>"; };
+		D06F8EE2200CD78D0061B046 /* MFBaseChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBaseChildView.h; sourceTree = "<group>"; };
+		D06F8EE3200CD78D0061B046 /* MFBaseChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseChildView.m; sourceTree = "<group>"; };
+		D06F8EE4200CD78D0061B046 /* MFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFNavigationController.h; sourceTree = "<group>"; };
+		D06F8EE5200CD78D0061B046 /* MFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBaseViewController.h; sourceTree = "<group>"; };
+		D06F8EE6200CD78D0061B046 /* MFBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFBaseTableViewCell.m; sourceTree = "<group>"; };
+		D06F8EEE200CD8460061B046 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		D06F8EEF200CD8460061B046 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		D06F8EF2200CD94E0061B046 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		D06F8EF3200CD94E0061B046 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		D06F8EF4200CD94E0061B046 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		D06F8EF5200CD94E0061B046 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		D06F8EFD200CD9E00061B046 /* GLAsyncRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAsyncRun.m; sourceTree = "<group>"; };
+		D06F8EFE200CD9E00061B046 /* GLAsyncRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAsyncRun.h; sourceTree = "<group>"; };
+		D06F8F00200CDC130061B046 /* UIStoryboard+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Utils.m"; sourceTree = "<group>"; };
+		D06F8F01200CDC130061B046 /* UIStoryboard+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Utils.h"; sourceTree = "<group>"; };
+		D06F8F03200CDFC60061B046 /* EOPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOPBaseViewController.h; sourceTree = "<group>"; };
+		D06F8F04200CDFC60061B046 /* EOPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOPBaseViewController.m; sourceTree = "<group>"; };
+		D06F8F05200CDFC70061B046 /* EOPNavRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOPNavRootController.h; sourceTree = "<group>"; };
+		D06F8F06200CDFC70061B046 /* EOPNavRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOPNavRootController.m; sourceTree = "<group>"; };
+		D06F8F09200CF2F10061B046 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		D06F8F0A200CF2F10061B046 /* YJTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTagCollectionViewCell.m; sourceTree = "<group>"; };
+		D06F8F0B200CF2F10061B046 /* YJTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTagView.h; sourceTree = "<group>"; };
+		D06F8F0C200CF2F20061B046 /* YJTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTagView.m; sourceTree = "<group>"; };
+		D06F8F0D200CF2F20061B046 /* YJTagCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJTagCollectionViewCell.xib; sourceTree = "<group>"; };
+		D06F8F0E200CF2F20061B046 /* YJTagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTagCollectionViewCell.h; sourceTree = "<group>"; };
+		D06F8F0F200CF2F20061B046 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		D06F8F10200CF2F20061B046 /* YJTagViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTagViewProtocol.h; sourceTree = "<group>"; };
+		D06F8F15200CF35B0061B046 /* OYSampleBookHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookHomeCell.h; sourceTree = "<group>"; };
+		D06F8F16200CF35B0061B046 /* OYSampleBookHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookHomeCell.m; sourceTree = "<group>"; };
+		D0719189201DB59900DFBA9D /* OYSampleBookHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookHomeModel.h; sourceTree = "<group>"; };
+		D071918A201DB59900DFBA9D /* OYSampleBookHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookHomeModel.m; sourceTree = "<group>"; };
+		D07B42572024786200676A7A /* NSNull+Addtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Addtions.h"; sourceTree = "<group>"; };
+		D07B42582024786200676A7A /* NSNull+Addtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Addtions.m"; sourceTree = "<group>"; };
+		D07B425A202478C700676A7A /* UIImage+Addtions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addtions.m"; sourceTree = "<group>"; };
+		D07B425B202478C800676A7A /* UIImage+Addtions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addtions.h"; sourceTree = "<group>"; };
+		D093C239200F51DF00AC443A /* SourceHanSansCN-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSansCN-Normal.ttf"; sourceTree = "<group>"; };
+		D093C23F200F79CE00AC443A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D093C246200F7CDC00AC443A /* OYLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYLoginViewController.h; sourceTree = "<group>"; };
+		D093C247200F7CDC00AC443A /* OYLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYLoginViewController.m; sourceTree = "<group>"; };
+		D09BEF552009DC59001B146B /* OuYaApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OuYaApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BEF582009DC59001B146B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D09BEF592009DC59001B146B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D09BEF612009DC59001B146B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09BEF642009DC59001B146B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D09BEF662009DC59001B146B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09BEF672009DC59001B146B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D09BEF6D2009DC59001B146B /* OuYaApp-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OuYaApp-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BEF712009DC59001B146B /* OuYaApp_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OuYaApp_iOSTests.m; sourceTree = "<group>"; };
+		D09BEF732009DC59001B146B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09BEF782009DC59001B146B /* OuYaApp-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OuYaApp-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BEF7C2009DC59001B146B /* OuYaApp_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OuYaApp_iOSUITests.m; sourceTree = "<group>"; };
+		D09BEF7E2009DC59001B146B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A7D63920107F8900523F9A /* OYSampleBookListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookListModel.h; sourceTree = "<group>"; };
+		D0A7D63A20107F8900523F9A /* OYSampleBookListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookListModel.m; sourceTree = "<group>"; };
+		D0A7D63E2010950300523F9A /* OYSampleBookListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OYSampleBookListCell.xib; sourceTree = "<group>"; };
+		D0A7D641201095E700523F9A /* OYSampleBookListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OYSampleBookListCell.h; sourceTree = "<group>"; };
+		D0A7D642201095EB00523F9A /* OYSampleBookListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookListCell.m; sourceTree = "<group>"; };
+		D0B5663E2020582F00590F2E /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		D0B5663F2020582F00590F2E /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		D0B566402020582F00590F2E /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		D0B566422020582F00590F2E /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		D0B566442020582F00590F2E /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		D0B566452020582F00590F2E /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		D0B566462020582F00590F2E /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		D0B566472020582F00590F2E /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		D0B566482020582F00590F2E /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		D0B5664A2020582F00590F2E /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		D0B5664B2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		D0B5664C2020582F00590F2E /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		D0B5664D2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		D0B5664E2020582F00590F2E /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		D0B5664F2020582F00590F2E /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		D0B566502020582F00590F2E /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		D0B566512020582F00590F2E /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		D0B566522020582F00590F2E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0B566532020582F00590F2E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D0B566622020584400590F2E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		D0B566632020584500590F2E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D0BA7C6F20118C1C009977F5 /* OYSampleDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleDetailVC.h; sourceTree = "<group>"; };
+		D0BA7C7020118C1C009977F5 /* OYSampleDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleDetailVC.m; sourceTree = "<group>"; };
+		D0BA7C7220118C87009977F5 /* OYSampleBookDetailTopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookDetailTopVC.h; sourceTree = "<group>"; };
+		D0BA7C7320118C87009977F5 /* OYSampleBookDetailTopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookDetailTopVC.m; sourceTree = "<group>"; };
+		D0BA7C7520118C9F009977F5 /* OYSampleBookDetailMiddleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookDetailMiddleVC.h; sourceTree = "<group>"; };
+		D0BA7C7620118C9F009977F5 /* OYSampleBookDetailMiddleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookDetailMiddleVC.m; sourceTree = "<group>"; };
+		D0BA7C7820118CB5009977F5 /* OYSampleBookDetailBottomVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookDetailBottomVC.h; sourceTree = "<group>"; };
+		D0BA7C7920118CB5009977F5 /* OYSampleBookDetailBottomVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookDetailBottomVC.m; sourceTree = "<group>"; };
+		D0BA7C7B20118DB0009977F5 /* OYSampleBookPicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OYSampleBookPicVC.h; sourceTree = "<group>"; };
+		D0BA7C7C20118DB0009977F5 /* OYSampleBookPicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OYSampleBookPicVC.m; sourceTree = "<group>"; };
+		D0BCF1BE201C5B4500313575 /* blackCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackCloseBtn@2x.png"; sourceTree = "<group>"; };
+		D0BCF1BF201C5B4500313575 /* MFProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFProgressHUD.h; sourceTree = "<group>"; };
+		D0BCF1C0201C5B4500313575 /* MFProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFProgressHUD.m; sourceTree = "<group>"; };
+		D0BCF1C4201C5B7100313575 /* GLHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLHUD.h; sourceTree = "<group>"; };
+		D0BCF1C5201C5B7100313575 /* GLHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLHUD.m; sourceTree = "<group>"; };
+		D0BCF1C7201C5C5600313575 /* NSNotificationCenter+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+Utils.h"; sourceTree = "<group>"; };
+		D0BCF1C8201C5C5700313575 /* NSNotificationCenter+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+Utils.m"; sourceTree = "<group>"; };
+		E257FDC2D5AB7C00CAAA5ECC /* libPods-OuYaApp-iOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OuYaApp-iOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09BEF522009DC59001B146B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C8DED0F7C5DB39461DE3A1 /* libPods-OuYaApp-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BEF6A2009DC59001B146B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF92AB3E8EABA35A09DF83E6 /* libPods-OuYaApp-iOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BEF752009DC59001B146B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022A3DB9627A3A015B8A2020 /* libPods-OuYaApp-iOSUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41DB315303ECDE47A4DB6C51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				766E3C2035B457D0B163F285 /* Pods-OuYaApp-iOS.debug.xcconfig */,
+				0280FDCC48B055BF8D46165F /* Pods-OuYaApp-iOS.release.xcconfig */,
+				A526BAD539FF6E5CF89275EC /* Pods-OuYaApp-iOSTests.debug.xcconfig */,
+				52E82C89B6CE9A12C84766BC /* Pods-OuYaApp-iOSTests.release.xcconfig */,
+				CD6D3F431E68E9EBB8B6722C /* Pods-OuYaApp-iOSUITests.debug.xcconfig */,
+				64DA1C2024EBC6D1A8FDCF4F /* Pods-OuYaApp-iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D00EFAE2200B6D4900604F5F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D09BEF582009DC59001B146B /* AppDelegate.h */,
+				D09BEF592009DC59001B146B /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D00EFAE3200B6E4B00604F5F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D093C241200F7C9D00AC443A /* Login */,
+				D06F8EA0200CCC880061B046 /* Base */,
+				D00EFAE4200B6EDE00604F5F /* SampleBook */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D00EFAE4200B6EDE00604F5F /* SampleBook */ = {
+			isa = PBXGroup;
+			children = (
+				D00EFAE6200B6F1600604F5F /* Controller */,
+				D00EFAE5200B6F1600604F5F /* Model */,
+				D00EFAE8200B6F1600604F5F /* View */,
+				D00EFAE7200B6F1600604F5F /* ViewModel */,
+			);
+			path = SampleBook;
+			sourceTree = "<group>";
+		};
+		D00EFAE5200B6F1600604F5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0719188201DB57100DFBA9D /* SampleBookHome */,
+				D0A7D63820107F3200523F9A /* SampleBookList */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D00EFAE6200B6F1600604F5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA7C6D20118BD9009977F5 /* SampleBookDetail */,
+				D06F8EDC200CD73F0061B046 /* OYSampleBookHomeVC.h */,
+				D06F8EDD200CD73F0061B046 /* OYSampleBookHomeVC.m */,
+				D010FF8D200F9C1400DA7035 /* OYSampleBookListVC.h */,
+				D010FF8E200F9C1400DA7035 /* OYSampleBookListVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D00EFAE7200B6F1600604F5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D00EFAE8200B6F1600604F5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7D63420107B9600523F9A /* SampleBookList */,
+				D06F8F10200CF2F20061B046 /* YJTagViewProtocol.h */,
+				D06F8F09200CF2F10061B046 /* UICollectionViewLeftAlignedLayout.h */,
+				D06F8F0F200CF2F20061B046 /* UICollectionViewLeftAlignedLayout.m */,
+				D06F8F0E200CF2F20061B046 /* YJTagCollectionViewCell.h */,
+				D06F8F0A200CF2F10061B046 /* YJTagCollectionViewCell.m */,
+				D06F8F0D200CF2F20061B046 /* YJTagCollectionViewCell.xib */,
+				D06F8F0B200CF2F10061B046 /* YJTagView.h */,
+				D06F8F0C200CF2F20061B046 /* YJTagView.m */,
+				D06F8F15200CF35B0061B046 /* OYSampleBookHomeCell.h */,
+				D06F8F16200CF35B0061B046 /* OYSampleBookHomeCell.m */,
+				D019696A200E40BA00575DA2 /* EqualSpaceFlowLayout.h */,
+				D019696B200E40BA00575DA2 /* EqualSpaceFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D00EFAE9200B718100604F5F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D00EFAED200B7F1E00604F5F /* SampleBook.storyboard */,
+				D093C23F200F79CE00AC443A /* Login.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D00EFAEA200B7E8000604F5F /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+				D0B5663C2020582F00590F2E /* SVWebViewController */,
+				D0BCF1C3201C5B7100313575 /* GLHUD */,
+				D0BCF1BD201C5B4500313575 /* HUD */,
+				D06F8EF1200CD94E0061B046 /* WRNavigationBar */,
+			);
+			path = Venders;
+			sourceTree = "<group>";
+		};
+		D00EFAEB200B7E9000604F5F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D07B425B202478C800676A7A /* UIImage+Addtions.h */,
+				D07B425A202478C700676A7A /* UIImage+Addtions.m */,
+				D07B42572024786200676A7A /* NSNull+Addtions.h */,
+				D07B42582024786200676A7A /* NSNull+Addtions.m */,
+				D0BCF1C7201C5C5600313575 /* NSNotificationCenter+Utils.h */,
+				D0BCF1C8201C5C5700313575 /* NSNotificationCenter+Utils.m */,
+				D06F8F01200CDC130061B046 /* UIStoryboard+Utils.h */,
+				D06F8F00200CDC130061B046 /* UIStoryboard+Utils.m */,
+				D06F8EEF200CD8460061B046 /* UIColor+Utils.h */,
+				D06F8EEE200CD8460061B046 /* UIColor+Utils.m */,
+				D06F8EB2200CCDD10061B046 /* UIBarButtonItem+Common.h */,
+				D06F8EBB200CCDD20061B046 /* UIBarButtonItem+Common.m */,
+				D06F8EAE200CCDD10061B046 /* UIView+Additon.h */,
+				D06F8EBA200CCDD20061B046 /* UIView+Additon.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D00EFAEC200B7E9E00604F5F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D06F8EFC200CD9E00061B046 /* GLAsyncRun */,
+				D06F8ECD200CD2AB0061B046 /* Toast */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D06F8EA0200CCC880061B046 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D0B566632020584500590F2E /* WebViewController.h */,
+				D0B566622020584400590F2E /* WebViewController.m */,
+				D06F8F03200CDFC60061B046 /* EOPBaseViewController.h */,
+				D06F8F04200CDFC60061B046 /* EOPBaseViewController.m */,
+				D06F8F05200CDFC70061B046 /* EOPNavRootController.h */,
+				D06F8F06200CDFC70061B046 /* EOPNavRootController.m */,
+				D06F8EE2200CD78D0061B046 /* MFBaseChildView.h */,
+				D06F8EE3200CD78D0061B046 /* MFBaseChildView.m */,
+				D06F8EE0200CD78C0061B046 /* MFBaseTableViewCell.h */,
+				D06F8EE6200CD78D0061B046 /* MFBaseTableViewCell.m */,
+				D06F8EE5200CD78D0061B046 /* MFBaseViewController.h */,
+				D06F8EDF200CD78C0061B046 /* MFBaseViewController.m */,
+				D06F8EE4200CD78D0061B046 /* MFNavigationController.h */,
+				D06F8EE1200CD78D0061B046 /* MFNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D06F8EA7200CCD5D0061B046 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D06F8ECB200CD14F0061B046 /* OuYaApp-Prefix.pch */,
+				D06F8EA9200CCD8D0061B046 /* GKConfig.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D06F8ECD200CD2AB0061B046 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				D06F8ECE200CD2AB0061B046 /* MFToast.m */,
+				D06F8ECF200CD2AB0061B046 /* MFToast.h */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		D06F8EF1200CD94E0061B046 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D06F8EF2200CD94E0061B046 /* WRNavigationBar.m */,
+				D06F8EF3200CD94E0061B046 /* WRCustomNavigationBar.h */,
+				D06F8EF4200CD94E0061B046 /* WRNavigationBar.h */,
+				D06F8EF5200CD94E0061B046 /* WRCustomNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		D06F8EFC200CD9E00061B046 /* GLAsyncRun */ = {
+			isa = PBXGroup;
+			children = (
+				D06F8EFD200CD9E00061B046 /* GLAsyncRun.m */,
+				D06F8EFE200CD9E00061B046 /* GLAsyncRun.h */,
+			);
+			path = GLAsyncRun;
+			sourceTree = "<group>";
+		};
+		D0719188201DB57100DFBA9D /* SampleBookHome */ = {
+			isa = PBXGroup;
+			children = (
+				D0719189201DB59900DFBA9D /* OYSampleBookHomeModel.h */,
+				D071918A201DB59900DFBA9D /* OYSampleBookHomeModel.m */,
+			);
+			path = SampleBookHome;
+			sourceTree = "<group>";
+		};
+		D093C234200F51CA00AC443A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D093C239200F51DF00AC443A /* SourceHanSansCN-Normal.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D093C241200F7C9D00AC443A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D093C244200F7CCD00AC443A /* Controller */,
+				D093C242200F7CCC00AC443A /* Model */,
+				D093C243200F7CCD00AC443A /* View */,
+				D093C245200F7CCD00AC443A /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D093C242200F7CCC00AC443A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D093C243200F7CCD00AC443A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D093C244200F7CCD00AC443A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D093C246200F7CDC00AC443A /* OYLoginViewController.h */,
+				D093C247200F7CDC00AC443A /* OYLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D093C245200F7CCD00AC443A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D09BEF4C2009DC58001B146B = {
+			isa = PBXGroup;
+			children = (
+				D09BEF572009DC59001B146B /* OuYaApp-iOS */,
+				D09BEF702009DC59001B146B /* OuYaApp-iOSTests */,
+				D09BEF7B2009DC59001B146B /* OuYaApp-iOSUITests */,
+				D09BEF562009DC59001B146B /* Products */,
+				41DB315303ECDE47A4DB6C51 /* Pods */,
+				FF43B92185DD781F89B44360 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D09BEF562009DC59001B146B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09BEF552009DC59001B146B /* OuYaApp-iOS.app */,
+				D09BEF6D2009DC59001B146B /* OuYaApp-iOSTests.xctest */,
+				D09BEF782009DC59001B146B /* OuYaApp-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09BEF572009DC59001B146B /* OuYaApp-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D093C234200F51CA00AC443A /* Resources */,
+				D06F8EA7200CCD5D0061B046 /* Config */,
+				D00EFAE2200B6D4900604F5F /* AppDelegate */,
+				D00EFAEC200B7E9E00604F5F /* Tools */,
+				D00EFAEB200B7E9000604F5F /* Category */,
+				D00EFAEA200B7E8000604F5F /* Venders */,
+				D00EFAE3200B6E4B00604F5F /* Modules */,
+				D00EFAE9200B718100604F5F /* Storyboard */,
+				D09BEF612009DC59001B146B /* Assets.xcassets */,
+				D09BEF632009DC59001B146B /* LaunchScreen.storyboard */,
+				D09BEF662009DC59001B146B /* Info.plist */,
+				D09BEF672009DC59001B146B /* main.m */,
+			);
+			path = "OuYaApp-iOS";
+			sourceTree = "<group>";
+		};
+		D09BEF702009DC59001B146B /* OuYaApp-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09BEF712009DC59001B146B /* OuYaApp_iOSTests.m */,
+				D09BEF732009DC59001B146B /* Info.plist */,
+			);
+			path = "OuYaApp-iOSTests";
+			sourceTree = "<group>";
+		};
+		D09BEF7B2009DC59001B146B /* OuYaApp-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D09BEF7C2009DC59001B146B /* OuYaApp_iOSUITests.m */,
+				D09BEF7E2009DC59001B146B /* Info.plist */,
+			);
+			path = "OuYaApp-iOSUITests";
+			sourceTree = "<group>";
+		};
+		D0A7D63420107B9600523F9A /* SampleBookList */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7D641201095E700523F9A /* OYSampleBookListCell.h */,
+				D0A7D642201095EB00523F9A /* OYSampleBookListCell.m */,
+				D0A7D63E2010950300523F9A /* OYSampleBookListCell.xib */,
+			);
+			path = SampleBookList;
+			sourceTree = "<group>";
+		};
+		D0A7D63820107F3200523F9A /* SampleBookList */ = {
+			isa = PBXGroup;
+			children = (
+				D0A7D63920107F8900523F9A /* OYSampleBookListModel.h */,
+				D0A7D63A20107F8900523F9A /* OYSampleBookListModel.m */,
+			);
+			path = SampleBookList;
+			sourceTree = "<group>";
+		};
+		D0B5663C2020582F00590F2E /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0B5663D2020582F00590F2E /* SVWebViewController */,
+				D0B566522020582F00590F2E /* README.md */,
+				D0B566532020582F00590F2E /* LICENSE.txt */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		D0B5663D2020582F00590F2E /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0B5663E2020582F00590F2E /* SVModalWebViewController.m */,
+				D0B5663F2020582F00590F2E /* SVWebViewController.h */,
+				D0B566402020582F00590F2E /* SVModalWebViewController.h */,
+				D0B566412020582F00590F2E /* UIActivities */,
+				D0B566502020582F00590F2E /* SVWebViewController.bundle */,
+				D0B566512020582F00590F2E /* SVWebViewController.m */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+		D0B566412020582F00590F2E /* UIActivities */ = {
+			isa = PBXGroup;
+			children = (
+				D0B566422020582F00590F2E /* SVWebViewControllerActivity.m */,
+				D0B566432020582F00590F2E /* Safari */,
+				D0B566492020582F00590F2E /* Chrome */,
+				D0B5664F2020582F00590F2E /* SVWebViewControllerActivity.h */,
+			);
+			path = UIActivities;
+			sourceTree = "<group>";
+		};
+		D0B566432020582F00590F2E /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				D0B566442020582F00590F2E /* SVWebViewControllerActivitySafari-iPad.png */,
+				D0B566452020582F00590F2E /* SVWebViewControllerActivitySafari.m */,
+				D0B566462020582F00590F2E /* SVWebViewControllerActivitySafari@2x.png */,
+				D0B566472020582F00590F2E /* SVWebViewControllerActivitySafari.h */,
+				D0B566482020582F00590F2E /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		D0B566492020582F00590F2E /* Chrome */ = {
+			isa = PBXGroup;
+			children = (
+				D0B5664A2020582F00590F2E /* SVWebViewControllerActivityChrome.m */,
+				D0B5664B2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				D0B5664C2020582F00590F2E /* SVWebViewControllerActivityChrome@2x.png */,
+				D0B5664D2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad.png */,
+				D0B5664E2020582F00590F2E /* SVWebViewControllerActivityChrome.h */,
+			);
+			path = Chrome;
+			sourceTree = "<group>";
+		};
+		D0BA7C6D20118BD9009977F5 /* SampleBookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA7C6F20118C1C009977F5 /* OYSampleDetailVC.h */,
+				D0BA7C7020118C1C009977F5 /* OYSampleDetailVC.m */,
+				D0BA7C7220118C87009977F5 /* OYSampleBookDetailTopVC.h */,
+				D0BA7C7320118C87009977F5 /* OYSampleBookDetailTopVC.m */,
+				D0BA7C7520118C9F009977F5 /* OYSampleBookDetailMiddleVC.h */,
+				D0BA7C7620118C9F009977F5 /* OYSampleBookDetailMiddleVC.m */,
+				D0BA7C7820118CB5009977F5 /* OYSampleBookDetailBottomVC.h */,
+				D0BA7C7920118CB5009977F5 /* OYSampleBookDetailBottomVC.m */,
+				D0BA7C7B20118DB0009977F5 /* OYSampleBookPicVC.h */,
+				D0BA7C7C20118DB0009977F5 /* OYSampleBookPicVC.m */,
+			);
+			path = SampleBookDetail;
+			sourceTree = "<group>";
+		};
+		D0BCF1BD201C5B4500313575 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF1BE201C5B4500313575 /* blackCloseBtn@2x.png */,
+				D0BCF1BF201C5B4500313575 /* MFProgressHUD.h */,
+				D0BCF1C0201C5B4500313575 /* MFProgressHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		D0BCF1C3201C5B7100313575 /* GLHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCF1C4201C5B7100313575 /* GLHUD.h */,
+				D0BCF1C5201C5B7100313575 /* GLHUD.m */,
+			);
+			path = GLHUD;
+			sourceTree = "<group>";
+		};
+		FF43B92185DD781F89B44360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62831757B7A5EB5A046BD68B /* libPods-OuYaApp-iOS.a */,
+				538C39BC7BC3ABEEEBC81E44 /* libPods-OuYaApp-iOSTests.a */,
+				E257FDC2D5AB7C00CAAA5ECC /* libPods-OuYaApp-iOSUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09BEF542009DC59001B146B /* OuYaApp-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BEF812009DC59001B146B /* Build configuration list for PBXNativeTarget "OuYaApp-iOS" */;
+			buildPhases = (
+				F53633FBEE4AED6EB4F87C71 /* [CP] Check Pods Manifest.lock */,
+				D09BEF512009DC59001B146B /* Sources */,
+				D09BEF522009DC59001B146B /* Frameworks */,
+				D09BEF532009DC59001B146B /* Resources */,
+				2C28B1D3200637D9841F86CC /* [CP] Embed Pods Frameworks */,
+				2018DF108AD81B8176252DE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OuYaApp-iOS";
+			productName = "OuYaApp-iOS";
+			productReference = D09BEF552009DC59001B146B /* OuYaApp-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09BEF6C2009DC59001B146B /* OuYaApp-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BEF842009DC59001B146B /* Build configuration list for PBXNativeTarget "OuYaApp-iOSTests" */;
+			buildPhases = (
+				6BCEAF109F84A9A2AB0A0A99 /* [CP] Check Pods Manifest.lock */,
+				D09BEF692009DC59001B146B /* Sources */,
+				D09BEF6A2009DC59001B146B /* Frameworks */,
+				D09BEF6B2009DC59001B146B /* Resources */,
+				DCF4C3189B465DC18EBEEAD2 /* [CP] Embed Pods Frameworks */,
+				9F58F5FD89990A3746906314 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09BEF6F2009DC59001B146B /* PBXTargetDependency */,
+			);
+			name = "OuYaApp-iOSTests";
+			productName = "OuYaApp-iOSTests";
+			productReference = D09BEF6D2009DC59001B146B /* OuYaApp-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09BEF772009DC59001B146B /* OuYaApp-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BEF872009DC59001B146B /* Build configuration list for PBXNativeTarget "OuYaApp-iOSUITests" */;
+			buildPhases = (
+				446382B50D36D9D411DE8501 /* [CP] Check Pods Manifest.lock */,
+				D09BEF742009DC59001B146B /* Sources */,
+				D09BEF752009DC59001B146B /* Frameworks */,
+				D09BEF762009DC59001B146B /* Resources */,
+				681215C90FF192015D341774 /* [CP] Embed Pods Frameworks */,
+				68296341FA7DC574058B32D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09BEF7A2009DC59001B146B /* PBXTargetDependency */,
+			);
+			name = "OuYaApp-iOSUITests";
+			productName = "OuYaApp-iOSUITests";
+			productReference = D09BEF782009DC59001B146B /* OuYaApp-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09BEF4D2009DC58001B146B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OY;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = OuYa;
+				TargetAttributes = {
+					D09BEF542009DC59001B146B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D09BEF6C2009DC59001B146B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D09BEF542009DC59001B146B;
+					};
+					D09BEF772009DC59001B146B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D09BEF542009DC59001B146B;
+					};
+				};
+			};
+			buildConfigurationList = D09BEF502009DC58001B146B /* Build configuration list for PBXProject "OuYaApp-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09BEF4C2009DC58001B146B;
+			productRefGroup = D09BEF562009DC59001B146B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09BEF542009DC59001B146B /* OuYaApp-iOS */,
+				D09BEF6C2009DC59001B146B /* OuYaApp-iOSTests */,
+				D09BEF772009DC59001B146B /* OuYaApp-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09BEF532009DC59001B146B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B5665E2020582F00590F2E /* SVWebViewController.bundle in Resources */,
+				D0B566592020582F00590F2E /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
+				D09BEF652009DC59001B146B /* LaunchScreen.storyboard in Resources */,
+				D00EFAEE200B7F1E00604F5F /* SampleBook.storyboard in Resources */,
+				D0B5665C2020582F00590F2E /* SVWebViewControllerActivityChrome@2x.png in Resources */,
+				D0B566612020582F00590F2E /* LICENSE.txt in Resources */,
+				D0B566562020582F00590F2E /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
+				D0BCF1C1201C5B4500313575 /* blackCloseBtn@2x.png in Resources */,
+				D06F8F13200CF2F20061B046 /* YJTagCollectionViewCell.xib in Resources */,
+				D0A7D6402010950300523F9A /* OYSampleBookListCell.xib in Resources */,
+				D0B5665B2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
+				D0B566602020582F00590F2E /* README.md in Resources */,
+				D0B566582020582F00590F2E /* SVWebViewControllerActivitySafari@2x.png in Resources */,
+				D093C23E200F51DF00AC443A /* SourceHanSansCN-Normal.ttf in Resources */,
+				D0B5665D2020582F00590F2E /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
+				D09BEF622009DC59001B146B /* Assets.xcassets in Resources */,
+				D093C240200F79CE00AC443A /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BEF6B2009DC59001B146B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BEF762009DC59001B146B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2018DF108AD81B8176252DE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OuYaApp-iOS/Pods-OuYaApp-iOS-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OuYaApp-iOS/Pods-OuYaApp-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C28B1D3200637D9841F86CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OuYaApp-iOS/Pods-OuYaApp-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		446382B50D36D9D411DE8501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OuYaApp-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		681215C90FF192015D341774 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OuYaApp-iOSUITests/Pods-OuYaApp-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68296341FA7DC574058B32D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OuYaApp-iOSUITests/Pods-OuYaApp-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BCEAF109F84A9A2AB0A0A99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OuYaApp-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F58F5FD89990A3746906314 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OuYaApp-iOSTests/Pods-OuYaApp-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF4C3189B465DC18EBEEAD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OuYaApp-iOSTests/Pods-OuYaApp-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53633FBEE4AED6EB4F87C71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OuYaApp-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09BEF512009DC59001B146B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BCF1C6201C5B7100313575 /* GLHUD.m in Sources */,
+				D06F8EC7200CCDD20061B046 /* UIView+Additon.m in Sources */,
+				D06F8EC8200CCDD20061B046 /* UIBarButtonItem+Common.m in Sources */,
+				D07B425C202478C800676A7A /* UIImage+Addtions.m in Sources */,
+				D0A7D643201095EB00523F9A /* OYSampleBookListCell.m in Sources */,
+				D06F8EE8200CD78D0061B046 /* MFNavigationController.m in Sources */,
+				D06F8EDE200CD73F0061B046 /* OYSampleBookHomeVC.m in Sources */,
+				D0BA7C7A20118CB5009977F5 /* OYSampleBookDetailBottomVC.m in Sources */,
+				D06F8F14200CF2F20061B046 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				D06F8EE9200CD78D0061B046 /* MFBaseChildView.m in Sources */,
+				D06F8F08200CDFC70061B046 /* EOPNavRootController.m in Sources */,
+				D06F8ED0200CD2AB0061B046 /* MFToast.m in Sources */,
+				D019696C200E40BA00575DA2 /* EqualSpaceFlowLayout.m in Sources */,
+				D0BA7C7D20118DB0009977F5 /* OYSampleBookPicVC.m in Sources */,
+				D093C248200F7CDC00AC443A /* OYLoginViewController.m in Sources */,
+				D010FF8F200F9C1400DA7035 /* OYSampleBookListVC.m in Sources */,
+				D09BEF682009DC59001B146B /* main.m in Sources */,
+				D09BEF5A2009DC59001B146B /* AppDelegate.m in Sources */,
+				D06F8F12200CF2F20061B046 /* YJTagView.m in Sources */,
+				D06F8EF7200CD94E0061B046 /* WRCustomNavigationBar.m in Sources */,
+				D06F8F07200CDFC70061B046 /* EOPBaseViewController.m in Sources */,
+				D06F8EE7200CD78D0061B046 /* MFBaseViewController.m in Sources */,
+				D071918B201DB59900DFBA9D /* OYSampleBookHomeModel.m in Sources */,
+				D0B566642020584500590F2E /* WebViewController.m in Sources */,
+				D0BA7C7720118C9F009977F5 /* OYSampleBookDetailMiddleVC.m in Sources */,
+				D0BA7C7420118C87009977F5 /* OYSampleBookDetailTopVC.m in Sources */,
+				D07B42592024786300676A7A /* NSNull+Addtions.m in Sources */,
+				D0BA7C7120118C1C009977F5 /* OYSampleDetailVC.m in Sources */,
+				D06F8EF6200CD94E0061B046 /* WRNavigationBar.m in Sources */,
+				D06F8EEA200CD78D0061B046 /* MFBaseTableViewCell.m in Sources */,
+				D06F8EFF200CD9E00061B046 /* GLAsyncRun.m in Sources */,
+				D0A7D63B20107F8900523F9A /* OYSampleBookListModel.m in Sources */,
+				D06F8F11200CF2F20061B046 /* YJTagCollectionViewCell.m in Sources */,
+				D06F8EF0200CD8470061B046 /* UIColor+Utils.m in Sources */,
+				D0B566552020582F00590F2E /* SVWebViewControllerActivity.m in Sources */,
+				D0BCF1C9201C5C5700313575 /* NSNotificationCenter+Utils.m in Sources */,
+				D0B566542020582F00590F2E /* SVModalWebViewController.m in Sources */,
+				D0BCF1C2201C5B4500313575 /* MFProgressHUD.m in Sources */,
+				D06F8F18200CF35B0061B046 /* OYSampleBookHomeCell.m in Sources */,
+				D0B5665F2020582F00590F2E /* SVWebViewController.m in Sources */,
+				D06F8F02200CDC130061B046 /* UIStoryboard+Utils.m in Sources */,
+				D0B566572020582F00590F2E /* SVWebViewControllerActivitySafari.m in Sources */,
+				D0B5665A2020582F00590F2E /* SVWebViewControllerActivityChrome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BEF692009DC59001B146B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BEF722009DC59001B146B /* OuYaApp_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BEF742009DC59001B146B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BEF7D2009DC59001B146B /* OuYaApp_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09BEF6F2009DC59001B146B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09BEF542009DC59001B146B /* OuYaApp-iOS */;
+			targetProxy = D09BEF6E2009DC59001B146B /* PBXContainerItemProxy */;
+		};
+		D09BEF7A2009DC59001B146B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09BEF542009DC59001B146B /* OuYaApp-iOS */;
+			targetProxy = D09BEF792009DC59001B146B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09BEF632009DC59001B146B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09BEF642009DC59001B146B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09BEF7F2009DC59001B146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D09BEF802009DC59001B146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09BEF822009DC59001B146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766E3C2035B457D0B163F285 /* Pods-OuYaApp-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY92S64S3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//OuYaApp-iOS/Config//OuYaApp-Prefix.pch";
+				INFOPLIST_FILE = "OuYaApp-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OuYa.OuYaApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D09BEF832009DC59001B146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0280FDCC48B055BF8D46165F /* Pods-OuYaApp-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY92S64S3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//OuYaApp-iOS/Config//OuYaApp-Prefix.pch";
+				INFOPLIST_FILE = "OuYaApp-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OuYa.OuYaApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D09BEF852009DC59001B146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A526BAD539FF6E5CF89275EC /* Pods-OuYaApp-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY92S64S3;
+				INFOPLIST_FILE = "OuYaApp-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OuYa.OuYaApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OuYaApp-iOS.app/OuYaApp-iOS";
+			};
+			name = Debug;
+		};
+		D09BEF862009DC59001B146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E82C89B6CE9A12C84766BC /* Pods-OuYaApp-iOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY92S64S3;
+				INFOPLIST_FILE = "OuYaApp-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OuYa.OuYaApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OuYaApp-iOS.app/OuYaApp-iOS";
+			};
+			name = Release;
+		};
+		D09BEF882009DC59001B146B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6D3F431E68E9EBB8B6722C /* Pods-OuYaApp-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY92S64S3;
+				INFOPLIST_FILE = "OuYaApp-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OuYa.OuYaApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OuYaApp-iOS";
+			};
+			name = Debug;
+		};
+		D09BEF892009DC59001B146B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DA1C2024EBC6D1A8FDCF4F /* Pods-OuYaApp-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGY92S64S3;
+				INFOPLIST_FILE = "OuYaApp-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OuYa.OuYaApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OuYaApp-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09BEF502009DC58001B146B /* Build configuration list for PBXProject "OuYaApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BEF7F2009DC59001B146B /* Debug */,
+				D09BEF802009DC59001B146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BEF812009DC59001B146B /* Build configuration list for PBXNativeTarget "OuYaApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BEF822009DC59001B146B /* Debug */,
+				D09BEF832009DC59001B146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BEF842009DC59001B146B /* Build configuration list for PBXNativeTarget "OuYaApp-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BEF852009DC59001B146B /* Debug */,
+				D09BEF862009DC59001B146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BEF872009DC59001B146B /* Build configuration list for PBXNativeTarget "OuYaApp-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BEF882009DC59001B146B /* Debug */,
+				D09BEF892009DC59001B146B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09BEF4D2009DC58001B146B /* Project object */;
+}
